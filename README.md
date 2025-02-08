@@ -1,2 +1,3 @@
 # redact
-A Go package providing a `slog.Handler` to redact sensitive information from log messages using a configurable pipeline.
+
+A Go package for redacting sensitive information from slog-based logs using a configurable pipeline.
