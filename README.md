@@ -1,9 +1,8 @@
 # redact
 
-[![codecov](https://codecov.io/gh/alesr/redact/branch/main/graph/badge.svg)](https://codecov.io/gh/alesr/redact)
+[![codecov](https://codecov.io/gh/alesr/redact/graph/badge.svg?token=pKViiQZ5on)](https://codecov.io/gh/alesr/redact)
 
 A Go package for redacting sensitive information from slog-based logs using a configurable pipeline.
-
 
 ## Overview
 
@@ -76,3 +75,7 @@ func main() {
 ```
 
 Check the [examples](examples) directory for a testable example.
+
+## Documentation
+
+https://pkg.go.dev/github.com/alesr/redact
