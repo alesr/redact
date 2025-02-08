@@ -1,5 +1,7 @@
 # redact
 
+[![codecov](https://codecov.io/gh/alesr/redact/branch/main/graph/badge.svg)](https://codecov.io/gh/alesr/redact)
+
 A Go package for redacting sensitive information from slog-based logs using a configurable pipeline.
 
 
