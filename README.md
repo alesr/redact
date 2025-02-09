@@ -76,7 +76,7 @@ func main() {
 // Output: time=2025-02-08T19:49:23.826+02:00 level=INFO msg="Test log" user=rigoletto email=[REDACTED] password=[REDACTED]
 ```
 
-Check the [examples](examples) directory for a testable example.
+Check the [examples](example/example_test.go) directory for a testable example.
 
 ## Documentation
 
