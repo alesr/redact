@@ -8,7 +8,7 @@ import (
 	"github.com/alesr/redact"
 )
 
-func ExampleRedactionHandler() {
+func ExampleNewRedactionPipeline() {
 	// Create a buffer to capture the log output
 	var buf bytes.Buffer
 
