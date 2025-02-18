@@ -45,8 +45,18 @@ func ExampleNewRedactionPipeline() {
 		slog.Int("other_field", 456),
 	)
 
+	// Without type attr
+	logger.Info(
+		"Test message",
+		"username", "Rigoletto",
+		"email", "foo@bar.qux",
+		"password", "abc123",
+		"other_field", 456,
+	)
+
 	output := buf.String()
 	fmt.Print(output)
 
 	// Output: level=INFO msg="Test message" username=Rigoletto email=[REDACTED] password=[REDACTED] other_field=456
+	// level=INFO msg="Test message" username=Rigoletto email=[REDACTED] password=[REDACTED] other_field=456
 }
