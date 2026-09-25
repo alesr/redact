@@ -114,7 +114,7 @@ func TestRedactionPipeline_Concurrency(t *testing.T) {
 
 	wg.Add(numRoutines)
 
-	for i := 0; i < numRoutines; i++ {
+	for range numRoutines {
 		go func() {
 			defer wg.Done()
 			pipeline.AddRedactField("concurrent_field")
